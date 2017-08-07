@@ -11,20 +11,19 @@ function popInfo() {
   let data = JSON.parse(this.responseText);
   console.log(data)
   let dataToPop = `
-  <div>
+  <div class="content">
   <br>Name: ${data.name}
   <br>Github URL: ${data.url}
   <br>Email: courtney.notlisted@gmail.com
   <br>Company: ${data.company}
   <br>Github URL: ${data.blog}
   </div>
-  <div class="theStory">
+  <div class="content">
   <h2>The Story</h2>
   ${data.bio}
   </div>
-  <div class="profilePic">
-  
-
+  <div class="content">
+  <img src=${data.avatar_url} alt="this is my fo-toe">
   </div>
       `;
   basicsSection.innerHTML = dataToPop;
