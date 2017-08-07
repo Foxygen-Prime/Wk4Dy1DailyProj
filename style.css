@@ -1,17 +1,99 @@
+//zigzagelements//
+
+CSS
+
+.container1 {
+  width: 100%;
+  height: 200px;
+  background: #222;
+}
+.zigzag {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.zigzag:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 10px;
+}
+.container2 {
+  background: #E2E2E2;
+}
+.container2:before {
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #E2E2E2 33.333%, #E2E2E2 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #E2E2E2 33.333%, #E2E2E2 66.667%,
+      transparent 66.667%
+    );
+  background-size: 20px 40px;
+}
+
+.container1 {
+  width: 100%;
+  height: 150px;
+  background: #222;
+  padding-top: 1px;
+
+}
+.zigzag {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.zigzag:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 10px;
+}
+.container2 {
+  background: #E2E2E2;
+}
+.container2:before {
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #E2E2E2 33.333%, #E2E2E2 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #E2E2E2 33.333%, #E2E2E2 66.667%,
+      transparent 66.667%
+    );
+  background-size: 20px 40px;
+}
+
+
 header {
-background-color: orange;
 text-align: center;
 height: 150px;
+color: #E2E2E2;
+font-family: 'Roboto Slab', serif;
+font-size: 2em;
+font-weight: lighter;
 }
+
 .mainDawg{
   display: flex;
   align-content: flex-start;
 
 }
 
-
 body {
-background-color: pink;
+
 
 }
 
