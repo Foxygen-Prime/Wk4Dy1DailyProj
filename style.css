@@ -1,18 +1,27 @@
 header {
-display: inline-block;
-
-
+background-color: orange;
+text-align: center;
+height: 150px;
+}
+.mainDawg{
+  display: flex;
+  align-content: flex-start;
 
 }
+
+
 body {
-  display: flex;
-  flex-direction: row;
+background-color: pink;
 
 }
 
 .content {
-  display: flex;
-  flex-direction: row;
-  display: block; word-wrap:
+border: solid 2px black;
 
+}
+.content2 {
+  border: solid 2px black;
+}
+.content3 {
+  border: solid 2px black;
 }

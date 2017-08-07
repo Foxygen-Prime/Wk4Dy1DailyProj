@@ -1,5 +1,5 @@
 // populating code for The Basics//
-let basicsSection = document.getElementById('theBasics');
+let basicsSection = document.getElementById('Tontent');
 
 let request = new XMLHttpRequest();
 request.open("GET", "https://api.github.com/users/Foxygen-Prime");
@@ -12,17 +12,18 @@ function popInfo() {
   console.log(data)
   let dataToPop = `
   <div class="content">
+  <h2>The Basics</h2>
   <br>Name: ${data.name}
   <br>Github URL: ${data.url}
   <br>Email: courtney.notlisted@gmail.com
   <br>Company: ${data.company}
   <br>Github URL: ${data.blog}
   </div>
-  <div class="content">
+  <div class="content2">
   <h2>The Story</h2>
   ${data.bio}
   </div>
-  <div class="content">
+  <div class="content3">
   <img src=${data.avatar_url} alt="this is my fo-toe">
   </div>
       `;
