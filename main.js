@@ -13,15 +13,16 @@ function popInfo() {
   let dataToPop = `
   <div class="content">
   <h2>The Basics</h2>
-  <br>Name: ${data.name}
-  <br>Github URL: ${data.url}
-  <br>Email: courtney.notlisted@gmail.com
-  <br>Company: ${data.company}
-  <br>Github URL: ${data.blog}
+  <p><br><span>Name:</span> ${data.name}
+  <br><span>Github URL:</span> <a href=${data.url}>GithubUserName</a>
+  <br><span>Email:</span> courtney.notlisted@gmail.com
+  <br><span>Company:</span> ${data.company}
+  <br><span>Github URL:</span> <a href=${data.blog}>Fun Website</a>
+  </p>
   </div>
   <div class="content2">
   <h2>The Story</h2>
-  ${data.bio}
+${data.bio}
   </div>
   <div class="content3">
   <img src=${data.avatar_url} alt="this is my fo-toe">

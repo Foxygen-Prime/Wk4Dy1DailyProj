@@ -57,6 +57,7 @@
 }
 .container2 {
   background: #E2E2E2;
+  height: 350px;
 }
 .container2:before {
   background:
@@ -81,38 +82,60 @@ color: #E2E2E2;
 font-family: 'Roboto Slab', serif;
 font-size: 50px;
 font-weight: lighter;
-
 }
 
-.mainDawg{
+.mainDawg {
   display: flex;
   align-content: flex-start;
+  padding-left: 135px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.content {
-font-family: 'Cairo', sans-serif;
-}
-.content h2 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 30px;
-  font-weight: 600;
+.mainDawg span {
+  color: teal;
 }
 
-.content2 {
-  border: solid 2px black;
+.content p {
   font-family: 'Cairo', sans-serif;
   font-weight: lighter;
   color: gray;
-
+  border-right: solid, 1px, #CCCCCC;
+  padding-right: 60px;
 }
+
+.content h2 {
+  font-family: 'Roboto Slab', serif, black;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.content2 {
+  font-family: 'Cairo', sans-serif;
+  font-weight: lighter;
+  color: gray;
+  width: 350px;
+  height: 350px;
+  padding-left: 25px;
+  padding-right: 100px;
+}
+
 .content2 h2 {
   font-family: 'Roboto Slab', serif;
   color: black;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .content3 {
-  border: solid 2px black;
   font-family: 'Cairo', sans-serif;
+}
+
+.content3 img {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  position: relative;
+  top: 50px;
 }
